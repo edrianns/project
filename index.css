@@ -578,7 +578,7 @@ nav .fa {
 
   .header{
     min-height: 100vh;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("pictures/sabs2.png");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("pictures/qw.jpg");
   }
   .row {
     flex-direction: column;
