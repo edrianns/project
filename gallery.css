@@ -192,7 +192,8 @@ nav ul {
 }
 
 nav img {
-  width: 70px;
+  width: 45px;
+  padding-right: 10px;
 }
 
 .nav-links {
