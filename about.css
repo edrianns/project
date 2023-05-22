@@ -13,7 +13,7 @@
 .header {
   min-height: 75vh;
   width: 100%;
-  background-image: linear-gradient(to bottom, black, transparent), url("pictures/sabsnight.jpg"); 
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.621) 50%, rgba(0, 0, 0, 0) 100%),  url("pictures/bg.jpg"); 
   background-position: center;
   background-size: cover;
   position: relative;
@@ -55,7 +55,8 @@ nav ul {
 }
 
 nav img {
-  width: 60px;
+  width: 45px;
+  padding-right: 10px;
 }
 
 .nav-links {
@@ -333,7 +334,7 @@ h3 {
 
 .hiring p {
   padding: 0px;
-  margin: 0px;
+  margin-bottom: 30px;
 }
 
 .Qualify {
@@ -374,7 +375,6 @@ h3 {
   font-weight: 300;
   line-height: 22px;
   padding: 1px;
-  margin: 14px 14px 14px 14px;
 }
 
 .bottom-bar {
@@ -486,7 +486,7 @@ nav .fa {
   }
 
   .logo {
-    width: 60px;
+    width: 45px;
   }
 
   .menu {

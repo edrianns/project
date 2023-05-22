@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="about.css">
-    <title>CanvasChronicles</title>
+    <title>About</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
@@ -15,54 +15,60 @@
     <section class="header">
         <nav>
             <a href="index.html"><img class="logo" src="pictures/sb.png"></a>
-            <h1>Ste. Anne de Beaupré School</h1>
+            <h1>CanvasChronicles</h1>
             <div class="nav-links" id="navLinks">
                 <img src="icons/cancel.svg" class="cancelmenu" onclick="hideMenu()">
                 <ul>
-                    <li><a href="">Home</a>
+                    <li><a href="https://edrianns.github.io/project/index.html">Home</a>
                     </li>
                     </li>
                     <li><a href="https://edrianns.github.io/project/Gallery.html">Gallery</a>
                     </li>
+                    <li><a href="https://edrianns.github.io/project/about.html"
+                        style="font-weight: bold; color: #EAE7B1;">About us</a>
+                </li>
             </div>
             <img src="icons/menu.svg" class="menu" onclick="showMenu()">
         </nav>
 
         <div class="text-box">
-            <h1>About us <br>The New SABS</h1>
-            <p>Welcome to the fork of the official Website of Ste. Anne de Beaupre School. <br>This
-                website is designed to look more modern and user-friendly, with new features made specifically for
-                students.<br>
+            <h1>About us <br>CanvasChronicles</h1>
+            <p>a website dedicated to classical painting. Our mission is to provide a platform for art enthusiasts to explore and appreciate the beauty and history of classical painting.  <br>
             </p>
         </div>
     </section>
 
     <section class="hiring">
         <h1>History</h1>
-        <p> Ste. Anne de Beaupré School has a very humble and simple beginning. Its owner, founder and Directress, Miss
-            Aurora T. Apuada, had much enthusiasm to begin with. She first envisioned to cater the needs of children
-            with special needs, and with her Special Education (SPED) degree from the University of the Philippines and
-            meager personal funds as capital, she established St. Anne’s Special School in 1974. Housed in a makeshift
-            classroom in a garage in #7 Cattleya St. Mindanao Avenue Subdivision, in Quezon City, the school started its
-            operations with only four students for the school year 1974-1975. With the coming years, substantial
-            increase in enrollment came by, so St. Anne’s School had to transfer to a bigger and better place. Due to
-            its efficient operations, constant improvement of facilities and the inspiring transformation of its
-            student-products, the school was recognized shortly in 1980 – the first private special school DECS-NCR to
-            be granted full recognition.<br><br>
-            Seeing the need to put up a school for the purpose of mainstreaming the special children and by insistent
-            request of parents who believe so much in her ability to make a difference even for the regular children,
-            the founder-directress established Ste. Anne de Beaupré School, her regular school in 1987. Starting with
-            the pilot Pre-School Level, the other levels soon followed one after the other, year after year, with all
-            courses duly recognized by the DECS. Ste. Anne de Beaupré School is very proud to have its first batch of
-            High School graduates in March, 1996. From then on, every year sees a new batch of proud and able high
-            school graduates – Ste. Anne graduates molded to possess the necessary wisdom, training, skills and
-            knowledge needed for the more arduous task of tertiary education, and life in general. The graduates have
-            been admitted to prestigious schools and universities. Annean graduates have become professionals in
-            different fields, such as in medicine, law, architecture, engineering, IT, business and education. Now on
-            its 36th year, expect the school to once again deliver awesome activities, its top-notch educational system,
-            and its trademark strict but reasonable adherence to values formation for all students.
+        <p> CanvasChronicles is a website that was established in 2023 by Edrian Catid who shared a 
+            passion for classical painting. The founders recognized the need for a dedicated platform where people 
+            could learn about and appreciate the beauty and history of this art form. 
+            Over the years, CanvasChronicles has grown into a thriving community of artists, historians, and 
+            art lovers from all over the world. Our website features a vast collection of articles, galleries, 
+            and interactive features that allow visitors to explore the rich tradition of classical painting. 
+            We are proud to have played a role in promoting the appreciation and understanding of this timeless art 
+            form. <br><br>
+            CanvasChronicles was born out of a love for classical painting, a genre that spans centuries and 
+            cultures. The founders wanted to create a website that would showcase the masterpieces of this 
+            art form and educate people about its origins and evolution. Over the years, CanvasChronicles 
+            has attracted a large and diverse audience of art enthusiasts who share our passion for classical 
+            painting. Our website offers a wealth of information and resources that enable visitors to discover 
+            and enjoy the beauty and history of this art form. We are honored to have contributed to the 
+            preservation and promotion of this timeless art form.
         </p>
     </section>
+
+    <footer>
+        <div class="bottom-bar" id="contact-info">
+            <p>If you have any questions or feedback about our services, 
+                we would love to hear from you. You can reach us through 
+                our social media accounts below. We will try to respond as soon as possible. 
+                Thank you for choosing us.<br>  
+                Contact us: <br>
+                Facebook: Edrian Catid <br>
+                Instagram:  @edrians__ <br></p>
+        </div>
+    </footer>
 
    
 
@@ -81,27 +87,7 @@
         <img src="icons/vision.png" alt="vision">
     </div>
 
-    <script>
-        const floatingButton = document.querySelector('.floating-button');
-        floatingButton.addEventListener('click', () => {
-            floatingButton.classList.toggle('floating-window');
-            if (floatingButton.classList.contains('floating-window')) {
-                floatingButton.innerHTML += `
-  <section class="floating-button-content">
-    <h1>Vision</h1>
-    <p>Ste. Anne de Beaupré School envisions a world of proactive Filipino leaders that make the
-         world a better place both in the eyes of God and man.</p
-  </section>
-  <section class="floating-button-content">
-    <h1>Mission</h1>
-    <p>Ste. Anne de Beaupré School provides a well-balanced educational program for the formation of individuals with 
-    moral virtues, high-level intelligence and functional skills.</p
-  </section>`;
-            } else {
-                floatingButton.innerHTML = '<img src="icons/vision.png" alt="vision">';
-            }
-        });
-    </script>
+    
 
     <script>
         window.addEventListener('load', () => {

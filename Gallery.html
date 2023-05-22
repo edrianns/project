@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="gallery.css">
     <script src="index.js"></script>
-    <title>CanvasChronicles</title>
+    <title>Gallery</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
@@ -34,12 +34,15 @@
                 <div class="nav-links" id="navLinks">
                     <img src="icons/cancel.svg" class="cancelmenu" onclick="hideMenu()">
                     <ul>
-                        <li><a href="">Home</a>
+                        <li><a href="https://edrianns.github.io/project/index.html">Home</a>
                         </li>    
                         <li><a href="https://edrianns.github.io/project/Gallery.html"
                                 style="font-weight: bold; color: #EAE7B1;">Gallery</a>
                         </li>
-                        
+                        <li><a href="https://edrianns.github.io/project/about.html"
+                            >About us</a>
+                    </li>
+
                 </div>
                 <img src="icons/menu.svg" class="menu" onclick="showMenu()">
 
@@ -164,7 +167,13 @@
 
             <footer>
                 <div class="bottom-bar" id="contact-info">
-                    <p>Contact us: https://www.facebook.com/edrian.catid.7 / https://www.instagram.com/edrians__/</p>
+                    <p>If you have any questions or feedback about our services, 
+                        we would love to hear from you. You can reach us through 
+                        our social media accounts below. We will try to respond as soon as possible. 
+                        Thank you for choosing us.<br>  
+                        Contact us: <br>
+                        Facebook: Edrian Catid <br>
+                        Instagram:  @edrians__ <br></p>
                 </div>
             </footer>
 
@@ -252,6 +261,22 @@
                         document.getElementById('loader').style.display = 'none';
                     }, 500)
                 });
+                
+window.addEventListener('load', () => {
+    const floatingButton = document.querySelector('.floating-button');
+    floatingButton.click();
+});
+
+
+
+var navLinks = document.getElementById("navLinks");
+function showMenu() {
+    navLinks.style.right = "0px";
+}
+function hideMenu() {
+    navLinks.style.right = "-210px";
+}
+
             </script>
 
 

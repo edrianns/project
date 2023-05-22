@@ -642,7 +642,7 @@ nav .fa {
   }
 
   .logo {
-    width: 60px;
+    width: 45px;
   }
 
   .menu {
@@ -833,7 +833,7 @@ nav .fa {
 
 .floating-window {
   width: 220px;
-  height: 450px;
+  height: 200px;
   border-radius: 20px;
   background-color: #61876e;
   border-color: #a6bb8d;

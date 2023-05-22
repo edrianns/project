@@ -15,12 +15,8 @@ floatingButton.addEventListener('click', () => {
         floatingButton.innerHTML += `
 <section class="floating-button-content">
 <h1>Edrian Catid</h1>
-<p></p
-</section>
-<section class="floating-button-content">
-<h1>Mission</h1>
-<p>Gardner College Diliman provides a well-balanced educational program for the formation of individuals with 
-moral virtues, high-level intelligence and functional skills.</p
+<p>Section: 11-STEM 3 <br>
+Subject: EmpTech</p
 </section>`;
     } else {
         floatingButton.innerHTML = '<img src="icons/vision.png" alt="vision">';
