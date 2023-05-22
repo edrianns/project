@@ -14,13 +14,12 @@ floatingButton.addEventListener('click', () => {
     if (floatingButton.classList.contains('floating-window')) {
         floatingButton.innerHTML += `
 <section class="floating-button-content">
-<h1>Vision</h1>
-<p>Ste. Anne de Beaupré School envisions a world of proactive Filipino leaders that make the
-     world a better place both in the eyes of God and man.</p
+<h1>Edrian Catid</h1>
+<p></p
 </section>
 <section class="floating-button-content">
 <h1>Mission</h1>
-<p>Ste. Anne de Beaupré School provides a well-balanced educational program for the formation of individuals with 
+<p>Gardner College Diliman provides a well-balanced educational program for the formation of individuals with 
 moral virtues, high-level intelligence and functional skills.</p
 </section>`;
     } else {
