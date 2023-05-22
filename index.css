@@ -197,7 +197,8 @@ nav ul {
 }
 
 nav img {
-  width: 60px;
+  width: 45px;
+  padding-right: 10px;
 }
 
 .nav-links {
@@ -380,7 +381,7 @@ h1 {
   font-weight: 600;
   color: #fff;
   font-weight: normal;
-  margin-top: 0px;
+  margin-top: 50px;
 }
 
 p {
@@ -633,6 +634,7 @@ nav .fa {
     position: relative;
   }
 }
+
 
 @media (max-width: 1050px) {
   .header nav h1 {
